@@ -1,0 +1,189 @@
+[
+  {
+    "id": "HIP 17702",
+    "name": "Alcyone",
+    "group": "pleiades",
+    "ra": 56.871152303749994,
+    "dec": 24.105135651944448,
+    "magnitude": 2.87,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HIP+17702",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 47 29.0765529  +24 06 18.488347"
+  },
+  {
+    "id": "Atlas",
+    "name": "Atlas",
+    "group": "pleiades",
+    "ra": 57.290596074214164,
+    "dec": 24.053417133280277,
+    "magnitude": 3.63,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Atlas",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 49 09.7430578114  +24 03 12.301679809"
+  },
+  {
+    "id": "Electra",
+    "name": "Electra",
+    "group": "pleiades",
+    "ra": 56.218904540787506,
+    "dec": 24.113337850020002,
+    "magnitude": 3.7,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Electra",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 44 52.5370897890  +24 06 48.016260072"
+  },
+  {
+    "id": "Maia",
+    "name": "Maia",
+    "group": "pleiades",
+    "ra": 56.45670064515208,
+    "dec": 24.367743768288335,
+    "magnitude": 3.87,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Maia",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 45 49.6081548365  +24 22 03.877565838"
+  },
+  {
+    "id": "Merope",
+    "name": "Merope",
+    "group": "pleiades",
+    "ra": 56.581607863067084,
+    "dec": 23.948358938116666,
+    "magnitude": 4.18,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Merope",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 46 19.5858871361  +23 56 54.092177220"
+  },
+  {
+    "id": "Taygeta",
+    "name": "Taygeta",
+    "group": "pleiades",
+    "ra": 56.302083304839165,
+    "dec": 24.467273762147222,
+    "magnitude": 4.3,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Taygeta",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 45 12.4999931614  +24 28 02.185543730"
+  },
+  {
+    "id": "Pleione",
+    "name": "Pleione",
+    "group": "pleiades",
+    "ra": 57.296735824129996,
+    "dec": 24.13671019778,
+    "magnitude": 5.09,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Pleione",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 49 11.2165977912  +24 08 12.156712008"
+  },
+  {
+    "id": "Celaeno",
+    "name": "Celaeno",
+    "group": "pleiades",
+    "ra": 56.20089556752,
+    "dec": 24.28946759207,
+    "magnitude": 5.46,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Celaeno",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 44 48.2149362048  +24 17 22.083331452"
+  },
+  {
+    "id": "21 Tau",
+    "name": "Asterope (21 Tau)",
+    "group": "pleiades",
+    "ra": 56.47698521152,
+    "dec": 24.554509916180002,
+    "magnitude": 5.76,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=21+Tau",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 45 54.4764507648  +24 33 16.235698248"
+  },
+  {
+    "id": "22 Tau",
+    "name": "22 Tau",
+    "group": "pleiades",
+    "ra": 56.512084690559995,
+    "dec": 24.52789678212,
+    "magnitude": 6.421,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=22+Tau",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 03 46 02.9003257344  +24 31 40.428415632"
+  },
+  {
+    "id": "* alf Cen",
+    "name": "Alpha Centauri",
+    "group": "centauri",
+    "ra": 219.90208333333334,
+    "dec": -60.83397222222222,
+    "magnitude": -0.1,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A+alf+Cen",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 14 39 36.50  -60 50 02.3"
+  },
+  {
+    "id": "* bet Cen",
+    "name": "Beta Centauri",
+    "group": "centauri",
+    "ra": 210.95585562500003,
+    "dec": -60.37303516666667,
+    "magnitude": 0.58,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A+bet+Cen",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 14 03 49.40535  -60 22 22.9266"
+  },
+  {
+    "id": "* alf Cru",
+    "name": "Acrux",
+    "group": "centauri",
+    "ra": 186.64956341666667,
+    "dec": -63.09909286111111,
+    "magnitude": null,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A+alf+Cru",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 12 26 35.89522  -63 05 56.7343"
+  },
+  {
+    "id": "* bet Cru",
+    "name": "Mimosa",
+    "group": "centauri",
+    "ra": 191.93028654166667,
+    "dec": -59.688772,
+    "magnitude": 1.25,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A+bet+Cru",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 12 47 43.26877  -59 41 19.5792"
+  },
+  {
+    "id": "* gam Cru",
+    "name": "Gacrux",
+    "group": "centauri",
+    "ra": 187.791498375,
+    "dec": -57.11321344444445,
+    "magnitude": 1.64,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A+gam+Cru",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 12 31 09.95961  -57 06 47.5684"
+  },
+  {
+    "id": "* del Cru",
+    "name": "Delta Crucis",
+    "group": "centauri",
+    "ra": 183.786326996115,
+    "dec": -58.748924076838335,
+    "magnitude": 2.752,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A+del+Cru",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 12 15 08.7184790676  -58 44 56.126676618"
+  },
+  {
+    "id": "* eps Cru",
+    "name": "Epsilon Crucis",
+    "group": "centauri",
+    "ra": 185.3400338906829,
+    "dec": -60.4011481305725,
+    "magnitude": 3.57,
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A+eps+Cru",
+    "epoch": "J2000",
+    "coordinateString": "Coordinates(ICRS,ep=J2000,eq=2000): 12 21 21.6081337639  -60 24 04.133270061"
+  }
+]

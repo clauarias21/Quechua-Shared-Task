@@ -1,3 +1,3 @@
-import type { Metadata } from "next";import "./globals.css";import {Header,Footer} from "@/components/site-shell";
-export const metadata:Metadata={title:"Mayu — The Quechua Sky",description:"Explore Quechua sky names and Andean stories. An interactive guide with classroom resources and community contributions.",icons:{icon:"/favicon.svg"}};
-export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body><a className="skip" href="#main">Skip to content</a><Header/>{children}<Footer/></body></html>}
+import type {Metadata} from 'next';import './globals.css';import {Header,Footer} from '@/components/site-shell';import {LanguageProvider} from '@/components/language';
+export const metadata:Metadata={title:'Mayu — El cielo en quechua',description:'Explora el cielo del Perú en español, quechua e inglés: nombres, relatos con fuentes, observación y recursos docentes.',icons:{icon:'/favicon.svg'}};
+export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="es"><body><LanguageProvider><Header/>{children}<Footer/></LanguageProvider></body></html>}

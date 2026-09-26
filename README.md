@@ -2,7 +2,7 @@
 
 **Visit the public website:** https://mayu-quechua-sky.c-ariascoquil.chatgpt.site/
 
-An educational website with 11 sourced sky entries, community stories and recommendations, and a four-page teacher guide. English explanations accompany Quechua names and regional spelling variants.
+An educational website with 11 sourced sky entries, community stories and recommendations, and a four-page teacher guide. Spanish and English explanations accompany Quechua names and regional spelling variants. The Cusco-Collao Quechua translation is explicitly marked as a working draft awaiting fluent-speaker review.
 
 ## What is included
 
@@ -41,3 +41,11 @@ The website's `/sources` page links the educational references. Names and storie
 Photograph: “A cosmic rainbow in Ultra HD,” ESO/B. Tafreshi (https://twanight.org), CC BY 4.0. Original: https://www.eso.org/public/images/potw1533a/. Cropped for the site. Preserve attribution when reusing it.
 
 Vendored components retain their accompanying third-party notices. No blanket licence is granted over community contributions or cited source material.
+
+## Languages and star charts
+
+Spanish is the default. The interface supports Spanish, English, and a clearly marked Cusco-Collao Quechua working translation awaiting fluent-speaker review. Language choice is retained locally and included in navigation links. Community submissions remain in their original language.
+
+The interactive charts show selected Pleiades stars and Alpha/Beta Centauri with the Southern Cross as a reference. Coordinates in `lib/star-data.json` come from the linked SIMBAD records (ICRS, epoch J2000). A gnomonic projection preserves their relative arrangement; these charts are not local, date-specific visibility predictions. Optional cross lines are modern reference guides, not reconstructed Inka outlines.
+
+Teacher PDFs: `public/mayu-teachers-guide-es.pdf`, `-en.pdf`, and `-qu.pdf` (Quechua draft). High-resolution charts for each language are in `public/charts/`. The original PDF URL remains an English alias.
