@@ -8,6 +8,13 @@
       "when": 1789833156351,
       "tag": "0000_chubby_celestials",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790715472883,
+      "tag": "0001_grey_pretty_boy",
+      "breakpoints": true
     }
   ]
 }

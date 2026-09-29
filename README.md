@@ -22,15 +22,15 @@ node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1
 npm run dev
 ```
 
-Apply the initial migration once per fresh local database. Follow the local URL printed by the development server. After changing `db/schema.ts`, generate and review a new migration with `npm run db:generate`. Do not rewrite migrations already applied to a live database.
+Apply each migration in `drizzle/` in order, once per local database; the audio addition is `0001_grey_pretty_boy.sql`. Follow the local URL printed by the development server. After changing `db/schema.ts`, generate and review a new migration with `npm run db:generate`. Do not rewrite migrations already applied to a live database.
 
 ## Hosting and data
 
 The live website is hosted on Sites. This GitHub repository stores the source; GitHub pushes do not automatically update the live website. Changes must also be built and published through the existing Sites project.
 
-The `.openai/hosting.json` file identifies that existing Site and declares the logical `DB` binding. It contains no access credential. The hosting service manages the production database. Submitted stories and local test records are **not** included in this repository.
+The `.openai/hosting.json` file identifies that existing Site and declares the logical `DB` and `AUDIO` bindings. It contains no access credential. The hosting service manages the production database. Submitted stories and local test records are **not** included in this repository.
 
-GitHub Pages alone cannot run the contribution API. Hosting elsewhere requires a compatible Cloudflare Worker deployment, a D1 database bound as `DB`, and application of the included migrations.
+GitHub Pages alone cannot run the contribution API. Hosting elsewhere requires a compatible Cloudflare Worker deployment, a D1 database bound as `DB`, an R2 bucket bound as `AUDIO`, and application of the included migrations.
 
 Contributions become visible immediately as unverified community accounts. The form requires attribution and publication consent, collects no email addresses, and enforces a ten-contribution daily limit per connection using a daily hash. There is no moderation dashboard in this version.
 
@@ -49,3 +49,9 @@ Spanish is the default. The interface supports Spanish, English, and a clearly m
 The interactive charts show selected Pleiades stars and Alpha/Beta Centauri with the Southern Cross as a reference. Coordinates in `lib/star-data.json` come from the linked SIMBAD records (ICRS, epoch J2000). A gnomonic projection preserves their relative arrangement; these charts are not local, date-specific visibility predictions. Optional cross lines are modern reference guides, not reconstructed Inka outlines.
 
 Teacher PDFs: `public/mayu-teachers-guide-es.pdf`, `-en.pdf`, and `-qu.pdf` (Quechua draft). High-resolution charts for each language are in `public/charts/`. The original PDF URL remains an English alias.
+
+## Community audio
+
+Contributions can include one MP3, M4A, WAV, OGG, or WebM file, up to 10 MiB, with a description/transcript of 10–4,000 characters. Text-only contributions retain their 30-character minimum. The contributor must confirm permission from the people recorded. Files can be selected from a phone or computer and previewed before publication; the site does not record the microphone directly.
+
+The `AUDIO` R2 binding stores audio bytes; D1 stores nullable audio metadata. `POST /api/contributions` accepts multipart forms and retains compatibility with existing JSON text submissions. Body size and container signatures are checked server-side. This checks the container, not every codec; browser playback support varies. Audio is served through `/api/contributions/:id/audio`, with byte ranges for seeking. Failed writes clean up uploaded objects, and retries use the contribution ID to prevent duplicate posts. Existing contributions remain unchanged. New Quechua wording remains provisional; the recording-permission text also appears in Spanish/English to avoid presenting an unreviewed consent translation as validated.

@@ -2,6 +2,18 @@ export type Locale = 'es' | 'en' | 'qu';
 export const locales:Locale[]=['es','qu','en'];
 export const languageNames={es:'Español',en:'English',qu:'Runasimi'};
 export const copy = {
+ audioLabel:['Adjuntar audio (opcional)','Attach audio (optional)','Audio yapay (munaspa)'],
+ audioHelp:['MP3, M4A, WAV, OGG o WebM · máximo 10 MB. Puedes subir una grabación de tu teléfono.','MP3, M4A, WAV, OGG or WebM · up to 10 MB. You can upload a recording from your phone.','MP3, M4A, WAV, OGG, WebM · 10 MB kama.'],
+ audioPreview:['Escucha antes de publicar','Listen before publishing','Manaraq riqsichispa uyariy'],
+ audioRemove:['Quitar audio','Remove audio','Audiota qichuy'],
+ audioError:['Elige un audio MP3, M4A, WAV, OGG o WebM de hasta 10 MB.','Choose an MP3, M4A, WAV, OGG or WebM audio file up to 10 MB.','MP3, M4A, WAV, OGG utaq WebM audiota akllay: 10 MB kama.'],
+ audioConsent:['Tengo permiso de las personas grabadas para publicar este audio en una web pública.','I have permission from the people recorded to publish this audio on a public website.','Tengo permiso de las personas grabadas para publicar este audio en una web pública. / I have permission from the people recorded to publish this audio publicly.'],
+ audioConsentError:['Confirma también el permiso de las personas grabadas.','Also confirm permission from the people recorded.','Confirma el permiso para publicar el audio. / Confirm permission to publish the audio.'],
+ audioBody:['Descripción o transcripción del audio','Audio description or transcript','Audio: willakuyta qillqay'],
+ audioBodyHelp:['Escribe al menos 10 caracteres para explicar el audio. Una transcripción ayuda a quienes no pueden escucharlo.','Use at least 10 characters to describe the audio. A transcript helps people who cannot listen.','10–4000 sanampa. Audio willakuyta qillqay.'],
+ audioListen:['Escuchar relato','Listen to the story','Willakuyta uyariy'],
+ audioPlaybackError:['No se puede reproducir este audio en tu navegador. Prueba otro navegador.','This browser cannot play this audio. Try another browser.','No se puede reproducir el audio. / This audio cannot be played.'],
+
  skyTitle:['El cielo en quechua','The Quechua sky','Runasimipi hanaq pacha'],
  explore:['Explorar el cielo','Explore the sky','Hanaq pachata qhaway'], stories:['Relatos y voces','Stories & voices','Willakuykuna'], teachers:['Para docentes','For teachers','Yachachiqkunapaq'], sources:['Fuentes y créditos','Sources & credits','Yachaypa pukyunkuna'], skip:['Ir al contenido','Skip to content','Yachayman riy'], language:['Idioma','Language','Simi'], home:['Inicio','Home','Qallariy'],
  draft:['Quechua Cusco–Collao: traducción de trabajo, pendiente de revisión por hablantes.','Cusco–Collao Quechua: working translation, awaiting fluent-speaker review.','Qusqu–Qullaw runasimi: kay tikrasqa qillqata rimay yachaqkuna qhawarinanku kachkan.'], draftLink:['Proponer una corrección','Suggest a correction','Allichayta willay'],
