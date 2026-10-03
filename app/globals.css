@@ -14,3 +14,5 @@ a:hover{color:#e8bc73}.button:hover{background:#f4ce8c;color:#101827}.button:dis
 .star-hit{outline:none}.star-hit:focus{stroke:#e8bc73;stroke-width:2}
 
 .submission-fields{border:0;padding:0;margin:0;min-width:0;display:grid;gap:22px}.submission-fields:disabled{opacity:.75}.audio-upload{padding:20px;border:1px dashed #7084a4;border-radius:8px;background:#142138;min-width:0}.audio-upload input{max-width:100%;font-size:16px;margin-top:12px}.audio-upload p,.audio-preview p,.story-audio p{font-size:14px;color:#c4d0e5;margin:10px 0}.audio-preview{margin-top:16px;overflow-wrap:anywhere}.audio-preview audio,.story-audio audio{display:block;width:100%;max-width:100%;margin:12px 0;color-scheme:dark}.audio-preview .text-link{padding:10px 0}.story-audio{margin-bottom:20px}.contribution-form small{font-size:14px}
+
+.mayu-logo{display:block;object-fit:contain;flex-shrink:0}.brand .mayu-logo{width:68px;height:68px}.footer-brand{display:inline-flex;align-items:center;gap:12px;text-decoration:none;margin-bottom:10px}.footer .footer-brand{font-size:30px}@media(max-width:700px){.brand .mayu-logo{width:56px;height:56px}.brand{gap:10px}}
